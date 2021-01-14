@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c2a6b3-e25f-4460-9782-de416414a9b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lottery/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lottery/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numberBaseball.js" beforeDir="false" afterPath="$PROJECT_DIR$/numberBaseball.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610609210194</updated>
-      <workItem from="1610609212779" duration="14922000" />
+      <workItem from="1610609212779" duration="15766000" />
     </task>
     <servers />
   </component>

@@ -29,32 +29,25 @@ for(let i = 0 ; i < ball.length -1  ; i++ ){
 ball[ball.length-1].innerHTML = bonus;
 
 
-//#########이 부분 다시하기#############
+//########## 실행은 되는데 뭔가 이상함 다시보기!#############
 function lottocolor(num) {
     var color;
-    if (num.innerHTML <= 10) {
+    if (ball[num].innerText <= 10) {
         color = 'red';
-    } else if (num.innerHTML <= 20) {
+    } else if (ball[num].innerText <= 20) {
         color = 'orange';
-    } else if (num.innerHTML<= 30) {
+    } else if (ball[num].innerText<= 30) {
         color = 'yellow';
-    } else if (num.innerHTML <= 40) {
+    } else if (ball[num].innerText <= 40) {
         color = 'blue';
     } else {
         color = 'green';
     }
-    num.style.background = color;
-    // 결과창.appendChild(공);
+    ball[num].style.background = color;
 }
-lottocolor(ball);
+// ball[0].style.background = color;
 
+for (var i = 0; i < ball.length; i++) {
+    lottocolor(i);
+}
 
-//
-// for (var i = 0; i < 당첨숫자들.length; i++) {
-//     (function 클로저(j) {
-//         // var j = i;
-//         setTimeout(function () {
-//             공색칠하기(당첨숫자들[j], 결과창);
-//         }, (j + 1) * 1000);
-//     })(i);
-// }
