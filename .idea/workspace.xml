@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6c2a6b3-e25f-4460-9782-de416414a9b1" name="Default Changelist" comment="">
+    <list default="true" id="d6c2a6b3-e25f-4460-9782-de416414a9b1" name="Default Changelist" comment="RockPapperSissors game _ 미완성">
+      <change afterPath="$PROJECT_DIR$/RPSissors/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPSissors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPSissors/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/numberbaseball/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/numberbaseball/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lottery/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numberBaseball.js" beforeDir="false" afterPath="$PROJECT_DIR$/numberbaseball/numberBaseball.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -35,9 +42,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\정지현\Desktop\JavascriptGame\numberbaseball" />
       <recent name="C:\Users\정지현\Desktop\JavascriptGame\TicTacToe" />
     </key>
   </component>
@@ -63,11 +72,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610609210194</updated>
-      <workItem from="1610609212779" duration="15766000" />
+      <workItem from="1610609212779" duration="16764000" />
+      <workItem from="1610674142963" duration="6792000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RockPapperSissors game _ 미완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="RockPapperSissors game _ 미완성" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1610686110479">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1610686110479" />
+    <state x="444" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610686048721">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="444" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610686048721" />
   </component>
 </project>

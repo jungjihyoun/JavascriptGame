@@ -4,7 +4,6 @@ let ball = document.getElementsByClassName("ball");
 
 // ball[8].innerHTML = 'a'
 
-
 let arr  = Array(45)
     .fill()
     .map(function(num,index){
@@ -23,6 +22,7 @@ let lucky = suffle.slice(0,6)
     .sort(function (a,b) {
     return a-b;
 });
+
 for(let i = 0 ; i < ball.length -1  ; i++ ){
     ball[i].innerHTML = lucky[i];
 }
