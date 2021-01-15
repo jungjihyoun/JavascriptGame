@@ -65,12 +65,12 @@ document.querySelectorAll('.btn').forEach(function (btn) {
 });
 
 
-// let start = 3;
-// let interval2 = setInterval(function () {
-//     if(start === 0){
-//         console.log('Finish');
-//         return clearInterval(interval2);
-//     }
-//     console.log(start);
-//     start -= 1 ;
-// },1000);
+let start = 3;
+let interval2 = setInterval(function () {
+    if(start === 0){
+        console.log('Finish');
+        return clearInterval(interval2);
+    }
+    console.log(start);
+    start -= 1 ;
+},1000);

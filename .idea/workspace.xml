@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6c2a6b3-e25f-4460-9782-de416414a9b1" name="Default Changelist" comment="RockPapperSissors game _ 미완성">
-      <change afterPath="$PROJECT_DIR$/RPSissors/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPSissors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPSissors/style.css" afterDir="false" />
+    <list default="true" id="d6c2a6b3-e25f-4460-9782-de416414a9b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MineSweeper/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSweeper/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/numberbaseball/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/numberbaseball/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lottery/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numberBaseball.js" beforeDir="false" afterPath="$PROJECT_DIR$/numberbaseball/numberBaseball.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPSissors/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/RPSissors/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPSissors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/RPSissors/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPSissors/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/RPSissors/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -73,12 +71,38 @@
       <option name="presentableId" value="Default" />
       <updated>1610609210194</updated>
       <workItem from="1610609212779" duration="16764000" />
-      <workItem from="1610674142963" duration="6792000" />
+      <workItem from="1610674142963" duration="8037000" />
     </task>
+    <task id="LOCAL-00001" summary="RockPapperSissors game _ 미완성">
+      <created>1610686186756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610686186756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="178" />
+                  <entry key="3" value="116" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RockPapperSissors game _ 미완성" />
