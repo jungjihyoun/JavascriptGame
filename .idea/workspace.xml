@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c2a6b3-e25f-4460-9782-de416414a9b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MineSweeper/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSweeper/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPSissors/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/RPSissors/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPSissors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/RPSissors/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPSissors/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/RPSissors/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSweeper/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/MineSweeper/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSweeper/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MineSweeper/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610609210194</updated>
       <workItem from="1610609212779" duration="16764000" />
-      <workItem from="1610674142963" duration="8037000" />
+      <workItem from="1610674142963" duration="21298000" />
     </task>
     <task id="LOCAL-00001" summary="RockPapperSissors game _ 미완성">
       <created>1610686186756</created>
@@ -117,5 +114,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="444" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610686048721" />
+    <state x="-5" y="154" key="run.anything.popup" timestamp="1610718110203">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-5" y="154" key="run.anything.popup/0.0.1280.680/1920.0.1024.728@0.0.1280.680" timestamp="1610718110203" />
   </component>
 </project>
