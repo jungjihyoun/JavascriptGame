@@ -1,4 +1,3 @@
-
 let tbody = document.querySelector('#table tbody'); //table의 tbody에
 var dataset = [];
 var finish = false;
@@ -18,9 +17,14 @@ document.querySelector('#exec').addEventListener('click',function ()
 {
     //내부 먼저 초기화
     tbody.innerHTML =  '';
-    let hor = document.querySelector('#hor').value;
-    let ver = document.querySelector('#ver').value;
-    let mine = document.querySelector('#mine').value;
+    document.querySelector('#result').textContent='';
+    dataset = [];
+    opened = 0;
+    finish = false;
+
+    let hor = parseInt(document.querySelector('#hor').value);
+    let ver = parseInt(document.querySelector('#ver').value);
+    let mine = parseInt(document.querySelector('#mine').value);
 
     //###############지뢰 심기 _ 지뢰 위치 뽑기###################
     var arr  = Array(hor * ver)
@@ -45,14 +49,18 @@ document.querySelector('#exec').addEventListener('click',function ()
     //tbody td tr은 화면 !  항상 둘을 잘 일치시키자
     for (var i = 0 ; i < ver ; i += 1){
         var arr = [];
-        dataset.push(arr);
         var tr = document.createElement('tr');
+        dataset.push(arr);
         for(var j = 0 ; j < hor; j +=1){
             arr.push(codetable.nomal);
             var td = document.createElement('td');
             //td를 만드는 순간에 eventlistener 추가
             td.addEventListener('contextmenu',function (e) {
                 e.preventDefault();
+                if (finish){
+                    return;
+                }
+                //###############다시 하기######################
                 var parentTr = e.currentTarget.parentNode;
                 var parentTbody = e.currentTarget.parentNode.parentNode;
                 var row = Array.prototype.indexOf.call(parentTr.children, e.currentTarget);
@@ -124,9 +132,9 @@ document.querySelector('#exec').addEventListener('click',function ()
                     }).length;
                     // 거짓인 값: false, '', 0, null, undefined, NaN
                     e.currentTarget.textContent = aroundMine || '';
-                    dataset[col][row] = codetable.opend;
+                    dataset[col][row] = codetable.opened;
                     if (aroundMine === 0) {
-                        console.log('around을 엽니다');
+                        console.log('주변을 엽니다');
                         var aroundrow = [];
                         if (tbody.children[col-1]) {
                             aroundrow = aroundrow.concat([
@@ -160,8 +168,8 @@ document.querySelector('#exec').addEventListener('click',function ()
                         });
                     }
                 }
-                console.log(openedrow, hor * ver - mine);
-                if (openedrow === hor * ver - mine) {
+                console.log(opened, hor * ver - mine);
+                if (opened === hor * ver - mine) {
                     finish = true;
                     document.querySelector('#result').textContent = '승리';
                 }
