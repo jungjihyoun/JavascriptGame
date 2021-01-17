@@ -29,7 +29,7 @@ for(let i = 0 ; i < ball.length -1  ; i++ ){
 ball[ball.length-1].innerHTML = bonus;
 
 
-//########## 실행은 되는데 뭔가 이상함 다시보기!#############
+
 function lottocolor(num) {
     var color;
     if (ball[num].innerText <= 10) {

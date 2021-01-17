@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6c2a6b3-e25f-4460-9782-de416414a9b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSweeper/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/MineSweeper/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSweeper/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MineSweeper/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,9 @@
       <option name="presentableId" value="Default" />
       <updated>1610609210194</updated>
       <workItem from="1610609212779" duration="16764000" />
-      <workItem from="1610674142963" duration="21298000" />
+      <workItem from="1610674142963" duration="23236000" />
+      <workItem from="1610760196852" duration="10640000" />
+      <workItem from="1610856789580" duration="2531000" />
     </task>
     <task id="LOCAL-00001" summary="RockPapperSissors game _ 미완성">
       <created>1610686186756</created>
@@ -95,6 +96,7 @@
                   <entry key="3" value="116" />
                 </map>
               </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
