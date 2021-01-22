@@ -16,21 +16,14 @@ const PORT = process.env.PROT || 5000;
 //채팅 받음(서버)
 io.on("connection", (socket)=>{
        socket.on("chatting", (data)=>{
-           const {name , msg} = data;
+           const {name , msg } = data;
             io.emit("chatting", {
-              name: name,
-              msg: msg,
-              time: moment(new Date()).format("h:mm A")
+                name: name,
+                msg: msg,
+                time: moment(new Date()).format("h:mm A")
           });
        });
     });
-
-
-
-
-
-
-
 
 server.listen(PORT, ()=>{
     console.log(`server is running ${PORT}`);

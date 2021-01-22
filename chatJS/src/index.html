@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jihyoun_chat</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="app.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="user-container">
+        <label for="nickname">
+            <img class ="UserImg" src = "/img/1.jpg"/>
+        </label>
+        <input type="text" id="nickname" placeholder="닉네임을 입력하세요" />
+    </div>
+    <div class="display-container">
+        <ul class="chatting-list">
+<!--            자바스크립트에서 동적으로 제어 (채팅말풍선)-->
+        </ul>
+    </div>
+
+    <div class="input-container">
+        <span>
+          <textarea type="text" class="chatting-input"></textarea>
+          <input type="button" value="전송" class="send-button" />
+        </span>
+    </div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<!--<script-->
+<!--        src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js"-->
+<!--        integrity="sha512-Jr0UIR/Q8MUX+93zjDOhuDUKLqJZObtwpkLJQcR9qMaLgL0thet39IORuavUaZFkZ8a4ktrUsKPM9mf5LWMduA=="-->
+<!--        crossorigin="anonymous"-->
+<!--&gt;</script>-->
+<script src="js/chat.js"></script>
+</body>
+</html>
