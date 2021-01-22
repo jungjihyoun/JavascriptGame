@@ -14,6 +14,7 @@ let score = 0;
 let time = GAME_TIME;
 let isplaying = false;
 
+
 init();
 function init(){
     buttonChange('게임로딩중...');
@@ -72,7 +73,6 @@ function checkMatch(){
         time = GAME_TIME;
         const randomIndex = Math.floor(Math.random() * words.length);
         wordDisplay.innerText = words[randomIndex];
-
     }
 }
 
@@ -88,9 +88,9 @@ function countDown() {
     timeDisplay.innerText = time;
 }
 
+
 // 3. 게임 상태에 따라 버튼 텍스트 바꾸기
 function buttonChange(text){
     button.innerText = text;
     text === '게임시작' ? button.classList.remove('loading') : button.classList.add('loading');
-
 }

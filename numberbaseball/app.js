@@ -23,9 +23,9 @@
 //         alert("실패!")
 //     }
 // }
-
-//#############for문 별찍기
-for (var i = 1 ; i < 4 ; i+=1 ){
-    console.log("*".repeat(i));
-}
+//
+// //#############for문 별찍기
+// for (var i = 1 ; i < 4 ; i+=1 ){
+//     console.log("*".repeat(i));
+// }
 

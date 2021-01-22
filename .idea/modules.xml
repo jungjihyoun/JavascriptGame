@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavascriptGame.iml" filepath="$PROJECT_DIR$/.idea/JavascriptGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nodeJs/.idea/nodeJs.iml" filepath="$PROJECT_DIR$/../nodeJs/.idea/nodeJs.iml" />
     </modules>
   </component>
 </project>

@@ -70,7 +70,7 @@ document.querySelector('#exec').addEventListener('click',function ()
                 }
                 if(e.currentTarget.textContent === '' || e.currentTarget.textContent === 'X'){
                     e.currentTarget.textContent = '!';
-                    //????????왜 classList를 쓰는지 모르겠음??????????
+                    //??????????????? classList ???????????????
                     e.currentTarget.classList.add('flag');
                     if (dataset[col][row] === codetable.mine){
                         dataset[col][row] = codetable.qMine;
@@ -105,19 +105,19 @@ document.querySelector('#exec').addEventListener('click',function ()
                 var parentTbody = e.currentTarget.parentNode.parentNode;
                 var row = Array.prototype.indexOf.call(parentTr.children, e.currentTarget);
                 var col = Array.prototype.indexOf.call(parentTbody.children, parentTr);
-                //##############???정말 이해가 안가는 부분???###########
+                //############  ?????????????  ###########
                 if([codetable.opened,codetable.flag,codetable.fMine,codetable.qMine,codetable.qMine,codetable.question].includes(( dataset[col][row]))){
                     return;
                 }
 
-                // 클릭했을때
+                // click Event
                 e.currentTarget.classList.add('opened');
                 opened += 1;
-                if (dataset[col][row] === codetable.mine) { // 지뢰 클릭
-                    e.currentTarget.textContent = '펑';
+                if (dataset[col][row] === codetable.mine) { // mine click
+                    e.currentTarget.textContent = 'Boom';
                     document.querySelector('#result').textContent = '실패 ㅠㅠ';
                     finish = true;
-                } else { // 지뢰가 아닌 경우 around 지뢰 개수
+                } else { // if not mine, save the mine numbers
                     var around = [
                         dataset[col][row-1], dataset[col][row+1],
                     ];

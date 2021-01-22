@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/*##################### 상단 프로필 부분 ##########################*/
+.user-container{
+    background: #AE905E;
+    flex: 0.4;
+/*    플렉스는 비율로 크기를 차지하기 때문에 비율로 나머지도 조정*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.user-container label{
+    font-size: 14px;
+    margin-right: 1rem;
+}
+.user-container input{
+    border-radius: 3px;
+    text-indent: 5px;
+    border: none;
+    height: 100%;
+}
+
+/*######################## 채팅 부분 ###############################*/
+
+.display-container{
+    background: #b2c7d9;
+    flex: 12;
+    overflow-y: scroll;
+}
+.chatting-list li{
+    width: 90%;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+/*    왼쪽 밑으로 정렬*/
+    margin-top: 0.5rem;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+
+}
+.profile .image{
+    border-radius: 50%;
+    object-fit: cover;
+/*    이미지 크기 딱 맞게 해준다*/
+    width: 50px;
+    height: 50px;
+}
+.profile .user{
+    font-size: 13px;
+    margin-bottom: 0.3rem;
+
+}
+.message{
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 12px;
+    margin: 0 5px;
+    flex:7;
+}
+/*채팅말풍선 색깔은 자바스크립트에서 받은 속성에 따라 제어하자*/
+.time{
+    font-size: 10px;
+    margin: 0 5px;
+}
+
+.sent{
+    flex-direction: row-reverse;
+    float: right;
+}
+
+.sent .message{
+    background: #ffeb33;
+
+}
+
+.received .message{
+    background: #fff;
+}
+
+
+
+
+
+/*######################### 하단 입력창 부분 #######################*/
+.input-container{
+    flex:1;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+
+}
+
+.input-container span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.3rem;
+    width:100%;
+}
+.chatting-input{
+    font-size: 12px;
+    height: 100%;
+    flex:8;
+    border: none;
+}
+.send-button{
+    flex: 1;
+    background: #ffeb33;
+    border: none;
+    height:  100%;
+    border-radius: 3px;
+}
