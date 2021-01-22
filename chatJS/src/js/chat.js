@@ -52,7 +52,7 @@ socket.on("chatting", (data)=>{
 
 
 
-let i = 1;
+let i =1;
 document.querySelector(".UserImg").addEventListener('click',function(idx){
     if(idx){
         if(i === 5){
